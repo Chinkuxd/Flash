@@ -5,6 +5,7 @@ import time
 import os
 import random
 from platform import system
+from urllib.parse import quote
 
 # Initialize Flask app
 app = Flask(__name__)
